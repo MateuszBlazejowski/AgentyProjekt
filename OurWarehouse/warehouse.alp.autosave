@@ -112,7 +112,7 @@
 				<Connector>
 					<Id>1778146294935</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>-530</X><Y>210</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -138,8 +138,8 @@
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>-530</X><Y>210</Y></Point>
-						<Point><X>-460</X><Y>210</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>70</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -221,6 +221,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[navigationType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.FREE_SPACE_NAVIGATION]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recognizeAllTransporters]]></Name>
@@ -1774,8 +1777,8 @@
 					<Id>1778155645242</Id>
 					<Name><![CDATA[window3d]]></Name>
 					<X>1000</X><Y>0</Y>
-					<Width>500</Width>
-					<Height>300</Height>
+					<Width>940</Width>
+					<Height>600</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ShowLabel>false</ShowLabel>
@@ -1992,6 +1995,134 @@
 
 					<Z>0</Z>
 				</ConveyorNetwork>
+  				<PalletRack>
+					<Id>1778162599540</Id>
+					<Name><![CDATA[palletRack3]]></Name>
+					<X>110</X><Y>310</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor>-1644806</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<Width>780</Width>
+					<Height>20</Height>	
+					<RightHeight>20</RightHeight>
+					<AisleHeight>20</AisleHeight>
+					<RightAisleHeight>40</RightAisleHeight>
+					<Rotation>0</Rotation>
+					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
+					<NumberOfCells>5</NumberOfCells>
+					<NumberOfDeepPositions>1</NumberOfDeepPositions>
+					<NumberOfLevels>3</NumberOfLevels>
+					<LevelHeight>50</LevelHeight>
+					<CellWidth>20</CellWidth>
+					<Type>oneAisle</Type>
+					<Direction>noDirection</Direction>
+					<AisleBelow>true</AisleBelow>
+					<DrawLegs>true</DrawLegs>
+					<CellsBetweenLegs>2</CellsBetweenLegs>
+					<IsObstacle>true</IsObstacle>
+				</PalletRack>
+  				<PalletRack>
+					<Id>1778162726520</Id>
+					<Name><![CDATA[palletRack4]]></Name>
+					<X>110</X><Y>370</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor>-1644806</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<Width>780</Width>
+					<Height>20</Height>	
+					<RightHeight>20</RightHeight>
+					<AisleHeight>20</AisleHeight>
+					<RightAisleHeight>40</RightAisleHeight>
+					<Rotation>0</Rotation>
+					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
+					<NumberOfCells>5</NumberOfCells>
+					<NumberOfDeepPositions>1</NumberOfDeepPositions>
+					<NumberOfLevels>3</NumberOfLevels>
+					<LevelHeight>50</LevelHeight>
+					<CellWidth>20</CellWidth>
+					<Type>oneAisle</Type>
+					<Direction>noDirection</Direction>
+					<AisleBelow>false</AisleBelow>
+					<DrawLegs>true</DrawLegs>
+					<CellsBetweenLegs>2</CellsBetweenLegs>
+					<IsObstacle>true</IsObstacle>
+				</PalletRack>
+  				<PalletRack>
+					<Id>1778162731240</Id>
+					<Name><![CDATA[palletRack5]]></Name>
+					<X>110</X><Y>270</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor>-1644806</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<Width>780</Width>
+					<Height>20</Height>	
+					<RightHeight>20</RightHeight>
+					<AisleHeight>20</AisleHeight>
+					<RightAisleHeight>40</RightAisleHeight>
+					<Rotation>0</Rotation>
+					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
+					<NumberOfCells>5</NumberOfCells>
+					<NumberOfDeepPositions>1</NumberOfDeepPositions>
+					<NumberOfLevels>3</NumberOfLevels>
+					<LevelHeight>50</LevelHeight>
+					<CellWidth>20</CellWidth>
+					<Type>oneAisle</Type>
+					<Direction>noDirection</Direction>
+					<AisleBelow>false</AisleBelow>
+					<DrawLegs>true</DrawLegs>
+					<CellsBetweenLegs>2</CellsBetweenLegs>
+					<IsObstacle>true</IsObstacle>
+				</PalletRack>
+  				<PalletRack>
+					<Id>1778162735913</Id>
+					<Name><![CDATA[palletRack6]]></Name>
+					<X>110</X><Y>210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor>-1644806</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<Width>780</Width>
+					<Height>20</Height>	
+					<RightHeight>20</RightHeight>
+					<AisleHeight>20</AisleHeight>
+					<RightAisleHeight>40</RightAisleHeight>
+					<Rotation>0</Rotation>
+					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
+					<NumberOfCells>5</NumberOfCells>
+					<NumberOfDeepPositions>1</NumberOfDeepPositions>
+					<NumberOfLevels>3</NumberOfLevels>
+					<LevelHeight>50</LevelHeight>
+					<CellWidth>20</CellWidth>
+					<Type>oneAisle</Type>
+					<Direction>noDirection</Direction>
+					<AisleBelow>true</AisleBelow>
+					<DrawLegs>true</DrawLegs>
+					<CellsBetweenLegs>2</CellsBetweenLegs>
+					<IsObstacle>true</IsObstacle>
+				</PalletRack>
 			</Presentation>
 
 				</Level>
@@ -2480,6 +2611,12 @@
 		<VersionMajor>8</VersionMajor>
 		<VersionMinor>0</VersionMinor>
 		<VersionBuild>5</VersionBuild>
+    </RequiredLibraryReference>
+    <RequiredLibraryReference>
+		<LibraryName><![CDATA[transporters_moving_in_free_space]]></LibraryName>
+		<VersionMajor>0</VersionMajor>
+		<VersionMinor>0</VersionMinor>
+		<VersionBuild>0</VersionBuild>
     </RequiredLibraryReference>
 </Model>
 <ConvertersApplied>
